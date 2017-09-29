@@ -1,30 +1,31 @@
-yAPIz
-* Œ»İ‚Ì“ú•t‚Ìî•ñ‚ğæ“¾
+ã€APIã€‘
+* ç¾åœ¨ã®æ—¥ä»˜ã®æƒ…å ±ã‚’å–å¾—
     * GET 
         * endPoint: `/myMemo`
+ Â  Â  Â  Â * res: {memo}
 
-* “Še
+* æŠ•ç¨¿
     * GET 
         * endPoint: `/myMemo` 
         * reqestBody: toDay and nowTime,memo 
-* XV
+* æ›´æ–°
     * PUT 
         * endPoint: `/myMemoList`
         * reqestBody: toDay and nowTime,memo
-* íœ
+* å‰Šé™¤
     * DELETET
         * endPoint: `/myMemoList`
         * param:id
-* ˆê——•\¦
+* ä¸€è¦§è¡¨ç¤º
     * get
         * endPoint: `/myMemoList`
         * reqestBody: updateTime,day,memo
-        * res:  toDay and nowTime,memo,id
+        * res:  {memo,toDay and nowTime,id}
 
 ---
-* ‰B‚µAPI@ˆê——æ“¾iƒAƒbƒvƒf[ƒgƒ^ƒCƒ€j
-* ˆê——•\¦
+* éš ã—APIã€€ä¸€è¦§å–å¾—ï¼ˆã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã‚¿ã‚¤ãƒ è¾¼ï¼‰
+* ä¸€è¦§è¡¨ç¤º
     * get
         * endPoint: `/allMemo`
-        * param: ”NŒ
-        * res:  toDay and nowTime,memo,id,updatetime
+        * param: å¹´æœˆ
+        * res:  {toDay and nowTime,memo,id,updatetime}
