@@ -2,7 +2,7 @@
 * 現在の日付の情報を取得
     * GET 
         * endPoint: `/myMemo`
-        * res:{memo}
+        * res:{memo}
 
 * 投稿
     * GET 
